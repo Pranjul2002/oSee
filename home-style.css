@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	background-color: black;
+	background-image: url("oSee_Images/bgimg.png");
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+	color: darkcyan;
+}
+
+.sidebar{
+  	background-color: #111;
+  	position: fixed;
+  	width: 260px;
+  	height: 100%;
+  	color: darkcyan;
+}
+
+.logo{
+	position: absolute;
+	font-size: 35px;
+	top: 70px;
+	left: 70px;
+	color: cyan;
+}
+
+.menu-wrapper{
+	position: absolute;
+	top: 180px;
+	left: 80px;
+	font-size: 22px;
+	width: 145px;
+	height: 200px;
+}
+
+.menu-box{
+	position: absolute;
+	left: 35px;
+}
+
+#menuEnd{
+	position: relative;
+	top: 180px;
+}
+
+.below-menu-wrapper{
+	position: absolute;
+	width: 145px;
+	height: 200px;
+	top: 500px;
+	left: 80px;
+}
+
+.misc-box{
+	position: absolute;
+	width: ;
+	height: 150px;
+	left: 35px;
+}
+
+.right{
+	position: absolute;
+	left: 260px;
+	width: 1660px;
+	height: 2000px;
+	color: cyan;
+}
+
+.right-top{
+	position: absolute;
+}
+
+input{
+	position: absolute;
+	top: 4px;
+	left: 30px;
+	width: 500px;
+	height: 25px;
+	text-align: left;
+	background-color: darkcyan;
+	color: cyan;
+	border-style: none;
+	font-size: 18px;
+	border-radius: 10px;
+	border-color: cyan;
+}
+
+.search-bar{
+	position: absolute;
+	background-color: darkcyan;
+	border-radius: 5px;
+	width: 550px;
+	height: 35px;
+	left: 28px;
+	top: 25px;
+}
+
+.right-header-box{
+	position: absolute;
+	width: 1460px;
+	height: 250px;
+	left: 100px;
+	top: 100px;
+}
+
+.head-first{
+	position: absolute;
+	background-color: skyblue;
+	border-radius: 15px;
+	width: 900px;
+	height: 250px;
+}
+
+.head-second{
+	position: absolute;
+	background-color: skyblue;
+	border-radius: 15px;
+	width: 535px;
+	height: 250px;
+	left: 900px;
+	margin-left: 25px;
+}
+
+.top-right{
+	position: absolute;
+	width: 210px;
+	height: 50px;
+	left: 1440px;
+	top: 25px;
+}
+
+.dark-mode button{
+	position: absolute;
+	left: 50px;
+	top: 8px;
+	width: 35px;
+	height: 35px;
+}
+
+.sign-Up-In button{
+	position: absolute;
+	left: 125px;
+	top: 8px;
+	width: 35px;
+	height: 35px;
+}
+
+.content-review{
+	position: absolute;
+	background-color: skyblue;
+	border-radius: 25px;
+	top: 450px;
+	left: 280px;
+	width: 1150px;
+	height: 350px;
+}
